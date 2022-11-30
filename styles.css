@@ -1,8 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+}
 #container {
-    width: 160px;
-    background-color: grey;
     display: flex;
     flex-wrap: wrap;
+    width: 320px;
+    height: auto;
+    background-color: grey;
+    
 }
 
 .box {
