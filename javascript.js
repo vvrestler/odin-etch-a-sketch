@@ -10,8 +10,8 @@ for(i=0; i<16; i++) {
 }
 
 const setGrid = function() {
-    let num = 0;
-    num = prompt('How many rows and columns do you want? Pick from 1 to 64.');
+    let gridSize = 0;
+    gridSize = prompt('How many rows and columns do you want? Pick from 1 to 64.');
 
     let gridItems = container.querySelectorAll('.box');
     gridItems.forEach( () => {
@@ -21,8 +21,8 @@ const setGrid = function() {
     
     //console.log(gridItems);
 
-    for(i=0; i<num; i++) {
-        for(j=0;j<num;j++) {
+    for(i=0; i < gridSize; i++) {
+        for(j=0; j < gridSize;j++) {
             const box = document.createElement('div');
             box.setAttribute('class', 'box');
             box.addEventListener('mouseenter', () => {box.style.backgroundColor = 'orange'} )
