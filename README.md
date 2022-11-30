@@ -1,1 +1,1 @@
-# odin-etch-a-sketch
+Etch a Sketch! Have fun drawing!
