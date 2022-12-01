@@ -9,8 +9,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     width: 320px;
+    height: 320px;
     background-color: grey;
-    
 }
 
 .box {
